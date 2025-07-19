@@ -1,6 +1,3 @@
-
-
-
 from ast import Break
 
 print("\n\nTicket Booking System\n")
@@ -58,6 +55,11 @@ while restart != ('N','NO','n','no'):
 		print("Do you want to cancel the ticket??")
 		ps=input()
 		# if ps == ['y' or 'Y' or 'Yes' or 'yes' or 'YES']:
+		print("Enter your reason")
+		ps=input()
+		print("Half of the amount wiil be refunded")
+		print("Click 'Y' if it is Okay")
+		ps=input()
 		print("Your Ticket cancelled Succesfully.")
 		# elif ps == ['n' or 'N' or 'NO' or 'no' or 'No']:
 		# print("Your Ticket has not been cancelled.")
